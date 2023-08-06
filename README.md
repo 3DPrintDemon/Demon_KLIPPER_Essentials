@@ -60,7 +60,7 @@ If you have a 5 stepper driver printer, like an SV07 be sure to uncomment to ena
 
 Then, paste into your printer.cfg
 
-`[include Demon_essentials.cfg]`
+`[include Demon_Essentials.cfg]`
 
 `[include Demon_start_end_print.cfg]`
 
