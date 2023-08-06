@@ -1,4 +1,4 @@
-# Demon_Essentials
+# Demon_KLIPPER_Essentials
 Devilishly Good!
 
 Klipper .cfg files aimed at Sovol Printers, plus a copy/paste install guide
