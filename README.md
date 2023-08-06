@@ -28,7 +28,7 @@ You MUST do this or the START_PRINT Gcode WILL NOT WORK!
 You must also build a new high temperature mesh with the bed temperature OVER 90ºc & store it with the name “HOT”. 
 DO NOT OVERWRITE YOUR DEFAULT MESH!
 
-Then Head over to hear & download the companion Heat_Soak_Sovol.cfg to use with this START_PRINT Macro
+Then Head over to here & download the companion Heat_Soak_Sovol.cfg to use with this START_PRINT Macro
 https://github.com/3DPrintDemon/Non_Blocking_Wait_Sovol/releases/tag/Heat_Soak_Timers_V1.0
 
 If you don’t want or need you can comment out the _HEAT_WAIT lines
