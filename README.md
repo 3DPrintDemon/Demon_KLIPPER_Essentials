@@ -22,6 +22,8 @@ ADAPTIVE First Layer Height Purge Lines - the `START_PRINT` purge lines will now
 
 MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
 
+OPTIONAL CHAMBER CONTROL
+
 
 **Demon_Essentials FETAURES:**
 
