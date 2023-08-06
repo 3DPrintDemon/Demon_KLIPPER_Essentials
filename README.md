@@ -10,7 +10,7 @@ The .cfg files have been written & tested by myself. I run them on my own machin
 Start_End_Print.cfg has all you need to get your Klipper printer prepared for a print correctly with automatically adaptive modes that will set the printer up for your print by itself! All you need do aside from a few simple setup steps is check & maybe edit the variables section in the file to your liking. 
 
 
-Demon_Start_End_Print FEATURES:
+# Demon_Start_End_Print FEATURES:
 
 ADAPTIVE Nozzle Pre Heat stage - automatically set a chosen warmup temperature for both high & low temperature filament printing!
 ADAPTIVE Bed Heating Stage & Mesh Selection stage - while automatically heating the bed the printer will select the correct bed level mesh for the temperature range!
@@ -19,20 +19,20 @@ ADAPTIVE First Layer Height Purge Lines - the START_PRINT purges line will now p
 MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
 
 
-Demon_Essentials FETAURES:
+# Demon_Essentials FETAURES:
 
 Easy and automatic sinlge button press Macros to help you setup your printer.
 Pressure_Advance_Test_Mode.
 Stepper_Buzz_Cycle.
 Printer_PID_Tune.
 Probe_Z_Calibrate.
-Auto_Shaper_X.
-# Auto_Shaper_Y.
+Auto_Shaper_X and Y.
 
 
 
 
-Demon_Start_End_Print Setup steps…..
+
+# Demon_Start_End_Print Setup steps…..
 THERE ARE INSTRUCTIONS IN THE FILE ITSELF!
 
 Copy/paste the 3 slicer lines into Prusaslicer’s Start_GCODE window. You will have to modify them for other slicers.
@@ -57,7 +57,7 @@ Then, paste into your printer.cfg
 
 This will bring these files into your system, be sure to comment out & NOT delete your current START & END PRINT Macros!
 
-Now set your START_VARIABLES & happy printing!
+#Now set your START_VARIABLES & happy printing!
 
 Lastly to get the LED functionality you have to go into the HEAT_SOAK_SOVOL.cfg file & name your printer’s LED PIN so the Macro can control it.
 If you don’t do this it WONT WORK. They are set to my_led by default.
