@@ -21,13 +21,13 @@ MACRO VARIABLES - these are used to configure all the above functions plus easil
 
 Demon_Essentials FETAURES:
 
-Easy and automatic sinlge button press Macros to help you setup your printer
-Pressure_Advance_Test_Mode
-Stepper_Buzz_Cycle
-Printer_PID_Tune
-Probe_Z_Calibrate
-Auto_Shaper_X
-# Auto_Shaper_Y
+Easy and automatic sinlge button press Macros to help you setup your printer.
+Pressure_Advance_Test_Mode.
+Stepper_Buzz_Cycle.
+Printer_PID_Tune.
+Probe_Z_Calibrate.
+Auto_Shaper_X.
+# Auto_Shaper_Y.
 
 
 
