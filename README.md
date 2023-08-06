@@ -12,11 +12,11 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 Demon_Start_End_Print FEATURES:
 
-ADAPTIVE Nozzle Pre Heat stage - automatically set a chosen warmup temperature for both high & low temperature filament printing!
-ADAPTIVE Bed Heating Stage & Mesh Selection stage - while automatically heating the bed the printer will select the correct bed level mesh for the temperature range!
-SELECTABLE Bed Heat Soak Times - these are also adaptive & will be automatically selected, you just choose the time
-ADAPTIVE First Layer Height Purge Lines - the START_PRINT purges line will now perfectly match the height of your first layer of your print every time!
-MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
+•ADAPTIVE Nozzle Pre Heat stage - automatically set a chosen warmup temperature for both high & low temperature filament printing!
+•ADAPTIVE Bed Heating Stage & Mesh Selection stage - while automatically heating the bed the printer will select the correct bed level mesh for the temperature range!
+•SELECTABLE Bed Heat Soak Times - these are also adaptive & will be automatically selected, you just choose the time
+•ADAPTIVE First Layer Height Purge Lines - the START_PRINT purges line will now perfectly match the height of your first layer of your print every time!
+•MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
 
 
 Demon_Essentials FETAURES:
