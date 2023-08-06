@@ -18,7 +18,7 @@ ADAPTIVE Bed Heating Stage & Mesh Selection stage - while automatically heating 
 
 SELECTABLE Bed Heat Soak Times - these are also adaptive & will be automatically selected, you just choose the time.
 
-ADAPTIVE First Layer Height Purge Lines - the `START_PRINT` purges line will now perfectly match the height of your first layer of your print every time!
+ADAPTIVE First Layer Height Purge Lines - the `START_PRINT` purge lines will now perfectly match the height of your first layer of your print every time!
 
 MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
 
