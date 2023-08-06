@@ -18,7 +18,7 @@ ADAPTIVE Bed Heating Stage & Mesh Selection stage - while automatically heating 
 
 SELECTABLE Bed Heat Soak Times - these are also adaptive & will be automatically selected, you just choose the time.
 
-ADAPTIVE First Layer Height Purge Lines - the START_PRINT purges line will now perfectly match the height of your first layer of your print every time!
+ADAPTIVE First Layer Height Purge Lines - the `START_PRINT` purges line will now perfectly match the height of your first layer of your print every time!
 
 MACRO VARIABLES - these are used to configure all the above functions plus easily letting you set your chosen starting flow rate.
 
@@ -60,7 +60,7 @@ If you have a 5 stepper driver printer, like an SV07 be sure to uncomment to ena
 
 Then, paste into your printer.cfg
 
-`[include demon_essentials.cfg]`
+`[include Demon_essentials.cfg]`
 
 `[include Demon_start_end_print.cfg]`
 
