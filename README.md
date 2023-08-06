@@ -38,9 +38,9 @@ If you have a 5 stepper driver printer, like an SV07 be sure to uncomment to ena
 
 Then, paste into your printer.cfg
 
-[include demon_essentials.cfg]
+'[include demon_essentials.cfg]
 [include Demon_start_end_print.cfg]
-[include Heat_Soak_Sovol.cfg]
+[include Heat_Soak_Sovol.cfg]'
 
 This will bring these files into your system, be sure to comment out & NOT delete your current START & END PRINT Macros!
 
