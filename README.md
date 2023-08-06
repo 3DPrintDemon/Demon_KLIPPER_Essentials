@@ -53,7 +53,7 @@ DO NOT OVERWRITE YOUR DEFAULT MESH!
 Then Head over to here & download the companion Heat_Soak_Sovol.cfg to use with this START_PRINT Macro
 https://github.com/3DPrintDemon/Non_Blocking_Wait_Sovol/releases/tag/Heat_Soak_Timers_V1.0
 
-If you don’t want or need you can comment out the _HEAT_WAIT lines
+If you don’t want or need you can comment out the `_HEAT_WAIT` lines
 Or if you don’t want the LED commands you can comment them out in that file but still have the Heat_Soak timers.
 
 If you have a 5 stepper driver printer, like an SV07 be sure to uncomment to enable `Z_TILT_ADJUST` gantry levelling!
