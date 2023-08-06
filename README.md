@@ -62,7 +62,7 @@ Then, paste into your printer.cfg
 
 `[include Demon_Essentials.cfg]`
 
-`[include Demon_start_end_print.cfg]`
+`[include Demon_Start_End_Print.cfg]`
 
 `[include Heat_Soak_Sovol.cfg]`
 
