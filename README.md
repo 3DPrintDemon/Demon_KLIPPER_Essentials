@@ -75,6 +75,4 @@ Now set your `START_VARIABLES` & happy printing!
 Lastly to get the LED functionality you have to go into the `HEAT_SOAK_SOVOL.cfg` file & name your printer’s LED PIN so the Macro can control it.
 If you don’t do this it WONT WORK. They are set to my_led by default.
 
-
-
-
+Watch: https://youtu.be/KZaZbgVa_8Q
