@@ -1,9 +1,9 @@
 # Demon_KLIPPER_Essentials
 Devilishly Good!
 
-Klipper .cfg files aimed at Sovol Printers, plus a copy/paste install guide
+Klipper .cfg files for new macros that will run on any compatible printer, plus a copy/paste install guide.
 
-Here you'll find all the info you'll need to get Klipper running on your Sovol (and other!) printers, follow the instructions in the install guide if you are starting from scratch. Links & credits for sources have been given where possible, if I've forgotten or missed any let me know & I can update things as needed.
+Here you'll find all the info you'll need to get Klipper running on your Sovol, or any other printer. Follow the instructions in the install guide if you are starting from scratch. Links & credits for sources have been given where possible, if I've forgotten or missed any let me know & I can update things as needed.
 
 The .cfg files have been written & tested by myself. I run them on my own machines.
 
