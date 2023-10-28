@@ -1,3 +1,5 @@
+## BE SURE TO CLICK TO THE RIGHT FOR THE LATEST RELEASE!!!
+
 # Demon_KLIPPER_Essentials
 Devilishly Good!
 
