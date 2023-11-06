@@ -1,5 +1,5 @@
 ## BE SURE TO CLICK THE GREEN LATEST RELEASE BUTTON FOR LATEST UPDATE!!!
-## Don't forget to if you like this project you can buy me a beer/coffee to say thanks. https://www.buymeacoffee.com/3dprintdemon
+## Don't forget if you like this project you can buy me a beer/coffee to say thanks. https://www.buymeacoffee.com/3dprintdemon
 
 # Demon_KLIPPER_Essentials
 Devilishly Good!
