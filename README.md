@@ -52,7 +52,7 @@ THERE ARE INSTRUCTIONS IN THE FILE ITSELF!
 Copy/paste the 3 slicer lines into Prusaslicer’s Start_GCODE window. You will have to modify them for other slicers.
 You MUST do this or the START_PRINT Gcode WILL NOT WORK! 
 
-Copy the files here into your cofig folder on your printer. 
+Copy the files here into your config folder on your printer. 
 
 Then, paste into your printer.cfg
 
