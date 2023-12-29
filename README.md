@@ -1,3 +1,5 @@
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
+
 ## BE SURE TO CLICK THE GREEN LATEST RELEASE BUTTON FOR LATEST UPDATE!!!
 ## Don't forget if you like this project you can buy me a beer/coffee to say thanks. https://ko-fi.com/3dprintdemon
 
@@ -81,3 +83,6 @@ Lastly to get the LED functionality you have to go into the `HEAT_SOAK_SOVOL.cfg
 If you don’t do this it WONT WORK. They are set to my_led by default.
 
 Watch: https://youtu.be/KZaZbgVa_8Q
+
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
+
