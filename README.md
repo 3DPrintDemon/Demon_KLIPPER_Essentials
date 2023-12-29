@@ -1,7 +1,7 @@
 [<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
 
 ## BE SURE TO CLICK THE GREEN LATEST RELEASE BUTTON FOR LATEST UPDATE!!!
-## Don't forget if you like this project you can buy me a beer/coffee to say thanks. [https://ko-fi.com/3dprintdemon](https://ko-fi.com/3dprintdemon)
+## Don't forget if you like & use this project you can buy me a beer/coffee to say thanks. [https://ko-fi.com/3dprintdemon](https://ko-fi.com/3dprintdemon)
 
 # Demon_KLIPPER_Essentials
 Devilishly Good!
