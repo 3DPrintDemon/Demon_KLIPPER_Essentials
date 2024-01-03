@@ -10,9 +10,10 @@ Klipper .cfg files for new macros that will run on any compatible printer, plus 
 
 Here you'll find all the info you'll need to get Klipper running on your printer. Follow the instructions in the install guide if you are starting from scratch. Links & credits for sources have been given where possible, if I've forgotten or missed any let me know & I can update things as needed.
 
-The .cfg files have been written & tested by myself. I run them on my own machines.
+The .cfg files have been written & tested by myself. I run them on my own machines. The goal of these macros has always been to be as automated and unobtrusive as possible! No clutter, no million macro buttons, no endless choices & commands. This is a hit print & know the printer does the rest system!  
 
 Start_End_Print.cfg has all you need to get your Klipper printer prepared for a print correctly with automatically adaptive modes that will set the printer up for your print by itself! All you need do aside from a few simple setup steps is check & maybe edit the variables section in the file to your liking. 
+****************************************************************************************************************************
 
 # This macro relies on you setting the correct filament type in your slicer! BE SURE YOU DO THIS!
 
@@ -30,19 +31,19 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 - Fast & adaptive Nozzle Preheat, values for each of the 5 filament presets. If the filament you're using is not on the list then the macro falls back on reading the file temps & makes a decision from there.
 
-- Fully conditional homing, dont home again if you dont have to!
+- Fully conditional homing, don't home again if you don't have to!
 
 - If you have a chamber or printer enclosure with a cooling fan then there are settings for when the fan comes on for each filament to help maintain the correct temperature!
 
 - Store 5 Meshes, one for each filament type. Each will be called automatically for the correct filament! Then if the filament type is not recognised the macro will fall back on reading the file temps & makes a decision from there.
 
-- Automaticly applied high temperature expansion offset for ASA & ABS filaments with a bed-saver safeguard! You set the offset to use. This will only allow small adjustments so can't dig trenches into your bed! Range of -0.1mm to +0.1mm is available. Anything outside this range causes an Emergency Stop! Offset adjustment feature can be switched on/off. USE WITH CARE!
+- Automatically applied high temperature expansion offset for ASA & ABS filaments with a bed-saver safeguard! You set the offset to use. This will only allow small adjustments so can't dig trenches into your bed! Range of -0.1mm to +0.1mm is available. Anything outside this range causes an Emergency Stop! Offset adjustment feature can be switched on/off. USE WITH CARE!
 
 - PETG Anti-Squish with bed-saver safeguard! This allows a positive Z offset to all PETG prints automatically to reduce the first layer squish. Range 0.00 to +0.1mm. Anything outside this range causes an Emergency Stop! Offset adjustment feature can be switched on/off. USE WITH CARE!
 
-- Filaments have Heat Soak timers that are now controlled by either enclsoure temp sensor readings, or timers. You choose! Timers are default if you dont have an enclosure or sensor.
+- Filaments have Heat Soak timers that are now controlled by either enclosure temp sensor readings, or timers. You choose! Timers are default if you don't have an enclosure or sensor.
 
-- Supprot for 5 stepper driver systems with Z-Tilt option
+- Support for 5 stepper driver systems with Z-Tilt option
 
 - Customise your purge line! Choose where to start & which axis to purge along! X or Y! It automatically adapts to your file's extrusion height & width!
 
@@ -83,9 +84,9 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 - The macros now check you are using the correct version files!
 
 
-
+****************************************************************************************************************************
 # IF YOU RAN V1.0-V1.1 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.3 FILE OR NEW FEATURES WONT WORK!
-
+****************************************************************************************************************************
 
 
 ## INSTALL
@@ -148,9 +149,6 @@ Now set your `Demon_User_Settings` & happy printing!
 
 
 
-[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
-
-
 
 # IF YOU RAN V1.0-V2.2 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.2 FILE OR NEW FEATURES WONT WORK!
 
@@ -161,7 +159,7 @@ Now set your `Demon_User_Settings` & happy printing!
 
 Watch: https://youtu.be/KZaZbgVa_8Q
 
-Happy printing!!
+
 
 [<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
 
