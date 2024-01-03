@@ -143,7 +143,7 @@ You must also build a series of new meshes with the bed temperature at the corre
 Then Head over to here & download the companion Heat_Soak_Sovol.cfg to use with this START_PRINT Macro
 https://github.com/3DPrintDemon/Non_Blocking_Wait_Sovol/releases/tag/Heat_Soak_Timers_V1.0
 
-If you don’t want or need you can comment out the `_HEAT_WAIT` lines
+If you don’t want or need you can comment out the `_HEAT_WAIT` lines.
 Or if you don’t want the LED commands you can comment them out in that file but still have the Heat_Soak timers.
 
 Lastly to get the LED functionality you have to go into the `HEAT_SOAK_SOVOL.cfg` file & name your printer’s LED PIN so the Macro can control it.
@@ -166,7 +166,7 @@ https://github.com/3DPrintDemon/Auto_Backup_Your_Klipper_Printer
 
 
 
-# IF YOU RAN V1.0-V2.2 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.2 FILE OR NEW FEATURES WONT WORK!
+# IF YOU RAN V1.0-V2.2 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.3 FILE OR NEW FEATURES WONT WORK!
 
 
 
