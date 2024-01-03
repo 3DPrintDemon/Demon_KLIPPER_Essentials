@@ -67,7 +67,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 - Add a whole new Prepare menu to your Klipperscreen! Gives you a single click ReadyUp feature, plus Prepare to load/unload.
 
-  *Not available on the Sovol own brand Klipper screen unit
+  *Menu NOT available on the Sovol own brand Klipper screen unit, but macros still work as normal. 
 
 
 ### **Demon_Essentials**
@@ -131,10 +131,10 @@ This will bring these files into your system, & give you update options, be sure
 
 # SETUP
 
-open & READ through the `demon_general_instructions.cfg` file!!!
+Open & READ through the `demon_general_instructions.cfg` file!!!
 
-You must also build a new high temperature meshes with the bed temperature 
-- default` (to use with PLA)
+You must also build a series of new meshes with the bed temperature at the correct printing temps. call them... 
+- default (to use with PLA)
 - ASA
 - ABS
 - PETG
