@@ -17,7 +17,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 # This macro relies on you setting the correct filament type in your slicer! BE SURE YOU DO THIS!
 
-## FEATURES: ##
+# FEATURES: 
 
 ### **Demon Start End Print**
 
@@ -89,7 +89,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 ****************************************************************************************************************************
 
 
-## INSTALL
+# INSTALL
 
 Copy the files here into a folder called `Demon_KLIPPER_Essentials` in your config folder on your printer. 
 
@@ -125,7 +125,7 @@ managed_services: klipper
 This will bring these files into your system, & give you update options, be sure to comment out & NOT delete your current START & END PRINT Macros just yet!
 
 
-## SETUP
+# SETUP
 
 open & READ through the `demon_general_instructions.cfg` file!!!
 
@@ -147,6 +147,18 @@ If you don’t do this it WONT WORK. They are set to my_led by default.
 
 Now set your `Demon_User_Settings` & happy printing!
 
+# WANT MORE...??
+Whats that I hear you cry, you want more?! Ok I got you covered!
+
+How about fully automated power on/off control with auto cool down & shutdown after a print finishes?! Plus have full control even after Klipper is in shutdown! What is this black magic?!!!
+
+Find out here!
+
+https://github.com/3DPrintDemon/BTT-Relay-v1.2-Moonraker_INSTANT_Power-On-Button
+
+If thats not enough how about creating your very own online auto updating backup of all your config files here on Github in your own private repo?!
+
+https://github.com/3DPrintDemon/Auto_Backup_Your_Klipper_Printer
 
 
 
