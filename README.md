@@ -37,6 +37,8 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 - Fully conditional homing, don't home again if you don't have to!
 
+- If you have a chamber or printer enclosure with a temperature sensor the maco can be set to use it for heat soaking the printer.
+
 - If you have a chamber or printer enclosure with a cooling fan then there are settings for when the fan comes on for each filament to help maintain the correct temperature!
 
 - Store 5 Meshes, one for each filament type. Each will be called automatically for the correct filament! Then if the filament type is not recognised the macro will fall back on reading the file temps & makes a decision from there.
