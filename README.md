@@ -144,7 +144,7 @@ Then Head over to here & download the companion Heat_Soak_Sovol.cfg to use with 
 https://github.com/3DPrintDemon/Non_Blocking_Wait_Sovol/releases/tag/Heat_Soak_Timers_V1.0
 
 If you don’t want or need you can comment out the `_HEAT_WAIT` lines.
-Or if you don’t want the LED commands you can comment them out in that file but still have the Heat_Soak timers.
+Or you can simply set the timer variables to 0 minutes in the user settings file if you wish to bypass the timers once the timer macro is installed.
 
 Lastly to get the LED functionality you have to go into the `HEAT_SOAK_SOVOL.cfg` file & name your printer’s LED PIN so the Macro can control it.
 If you don’t do this it WONT WORK. They are set to my_led by default.
