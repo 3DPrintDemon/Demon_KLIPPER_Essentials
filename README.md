@@ -6,7 +6,11 @@
 Devilishly Good!
 # v2.3 Rewritten, now your printer just got even smarter!
 
-Klipper .cfg files for new macros that will run on any compatible printer, plus a copy/paste install guide.
+This macro pack will run on any compatible printer, giving you an amazingly adaptive & efforless feeling to using your machine!
+
+Plus a copy/paste how to install Klipper from scratch guide, which is jammed full of extras & advanced features!
+
+Also included is the custom boot screen image & 3DPRintDemon Keyring.stl
 
 Here you'll find all the info you'll need to get Klipper running on your printer. Follow the instructions in the install guide if you are starting from scratch. Links & credits for sources have been given where possible, if I've forgotten or missed any let me know & I can update things as needed.
 
