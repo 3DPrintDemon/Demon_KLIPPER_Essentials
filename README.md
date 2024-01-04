@@ -124,18 +124,7 @@ Then, paste into your printer.cfg
 [include ./Demon_KLIPPER_Essentials/*.cfg]
 ```
 
-You can even be notified of updates by editing your `moonraker.conf` file with...
-```
-[update_manager Demon_KLIPPER_Essentials]
-type: git_repo
-origin: https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials.git
-path: ~/printer_data/config/Demon_KLIPPER_Essentials
-primary_branch: main
-is_system_service: False
-managed_services: klipper
-```
-
-This will bring these files into your system, & give you update options, be sure to comment out & NOT delete your current START & END PRINT Macros just yet!
+This will bring these files into your system, be sure to comment out & NOT delete your current START & END PRINT Macros just yet!
 
 
 # SETUP
