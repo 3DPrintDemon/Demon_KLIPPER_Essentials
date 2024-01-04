@@ -59,6 +59,8 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 - This file contains all the 'Variables' available for the Demon Print Start End Macro, open & edit one single file! No need to trawl through the macros!
 
+- You can even turn on/off hardware options as your system changes & grows over time! Don't worry about future-proofing, its already built right in!
+
 
 ### **Demon General Instructions**
 
