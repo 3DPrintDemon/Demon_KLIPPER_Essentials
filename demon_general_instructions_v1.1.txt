@@ -56,13 +56,13 @@ You must [include] all Demon .cfg files in your printer.cfg file for this pack t
 Create a new folder in Mainsial & call it demon_macros
 Then in your printer.cfg paste in [inculde ./demon_macros/*.cfg]
 
-That will automatically incudle all files in that folder with .cfg
+That will automatically include all files in that folder with .cfg
 NOTE: this will also include ANY old files already there if you dont delete them on an future update.
 It just lets you include all files automatically.
 
 #########################################################################
 
-Dont Miss this....
+Don't Miss this....
 Make sure you download install these files they are REQUIRED for these macros to work correctly.
 https://github.com/3DPrintDemon/Non_Blocking_Wait_Sovol/releases/tag/Heat_Soak_Timers_V1.0
 
@@ -204,7 +204,7 @@ BEFORE FIRST USE
 CHECK YOUR VALUES ARE CORRECT BEFORE USE, THIS IS VITAL & TOTALLY ON YOU!
 DO NOT BLINDLY USE ANY OF THESE DEFAULT VALUES!!
 USE THESE MACROS AT YOUR OWN RISK! 
-DONT CRY TO ME IF YOU DIDN'T CHECK/CHANGE VALUES & YOU BREAK THINGS!
+DON'T CRY TO ME IF YOU DIDN'T CHECK/CHANGE VALUES & YOU BREAK THINGS!
 
 >>>>>>>>>>>>>>>>>>>>>>>>>!!WARNING!!<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 THIS START CODE USES RELATIVE EXTRUSION!! SET IT IN YOUR SLICER!
