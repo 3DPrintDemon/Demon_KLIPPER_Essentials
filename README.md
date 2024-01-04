@@ -6,7 +6,7 @@
 Devilishly Good!
 # v2.3 Rewritten, now your printer just got even smarter!
 
-This macro pack will run on any compatible printer, giving you an amazingly adaptive & efforless feeling to using your machine!
+This macro pack will run on any compatible printer, giving you an amazingly adaptive & effortless feeling to using your machine!
 
 Plus a copy/paste how to install Klipper from scratch guide, which is jammed full of extras & advanced features!
 
@@ -37,7 +37,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 - Fully conditional homing, don't home again if you don't have to!
 
-- If you have a chamber or printer enclosure with a temperature sensor the maco can be set to use it for heat soaking the printer.
+- If you have a chamber or printer enclosure with a temperature sensor the macro can be set to use it for heat soaking the printer.
 
 - If you have a chamber or printer enclosure with a cooling fan then there are settings for when the fan comes on for each filament to help maintain the correct temperature!
 
