@@ -133,10 +133,10 @@ This will bring these files into your system, & give you update options, be sure
 
 # SETUP
 
-Open & READ through the `demon_general_instructions.cfg` file!!!
+Open & READ through the `demon_general_instructions.txt` file!!!
 
 You must also build a series of new meshes with the bed temperature at the correct printing temps. call them... 
-- default (to use with PLA)
+- default
 - ASA
 - ABS
 - PETG
