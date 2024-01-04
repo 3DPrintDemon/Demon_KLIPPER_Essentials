@@ -111,6 +111,11 @@ This will include all files in a folder called Demon_KLIPPER_Essentials in your 
 Or you can use...
 
 ```
+cd /home/pi/printer_data/config
+```
+NOTE: the above command is for a real Rasberry Pi, if you're using a cloned system that "/pi" folder will change to `mks` or `btt` or simialr.
+
+```
 git clone https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials.git
 ```
 
