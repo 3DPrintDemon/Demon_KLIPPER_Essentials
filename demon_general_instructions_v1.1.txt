@@ -53,12 +53,23 @@ IMPORTANT!!!!!
 
 You must [include] all Demon .cfg files in your printer.cfg file for this pack to work! The versions must also meet the currently expected versions, and yes the macros will check!
 
-Create a new folder in Mainsial & call it demon_macros
-Then in your printer.cfg paste in [inculde ./demon_macros/*.cfg]
+Create a new folder in Mainsail & call it Demon_KLIPPER_Essentials
+Then in your printer.cfg paste in [include ./demon_KLIPPER_Essentials/*.cfg]
 
 That will automatically include all files in that folder with .cfg
 NOTE: this will also include ANY old files already there if you dont delete them on an future update.
 It just lets you include all files automatically.
+
+Or you can use ssh...
+
+cd /home/pi/printer_data/config
+NOTE: the above command is for a real Rasberry Pi, if you're using a cloned system that "/pi" folder will change to mks or btt or similar.
+
+git clone https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials.git
+Then, paste into your printer.cfg
+
+[include ./Demon_KLIPPER_Essentials/*.cfg]
+This will bring these files into your system, be sure to comment out & NOT delete your current START & END PRINT Macros just yet!
 
 #########################################################################
 
