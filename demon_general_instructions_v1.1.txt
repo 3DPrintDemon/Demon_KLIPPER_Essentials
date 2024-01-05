@@ -12,7 +12,7 @@
 #########################################################################
 FOR THIS TO WORK!!!
 YOU MUST DO THIS!!!
-ADD THE 3 LINES BELOW TO PRUSASLICER'S SLICER'S START GCODE SECTION
+ADD THE 3 LINES BELOW TO PRUSASLICER'S START GCODE SECTION
 
 M104 S0
 M140 S0
@@ -21,7 +21,7 @@ print_start EXTRUDER=[first_layer_temperature[initial_extruder]] BED=[first_laye
 #########################################################################
 
 IF YOU USE ORCA SLICER
-ADD THE 3 LINES BELOW TO PRUSASLICER'S SLICER'S START GCODE SECTION
+ADD THE 3 LINES BELOW TO ORCA SLICER'S START GCODE SECTION
 
 M104 S0
 M140 S0
