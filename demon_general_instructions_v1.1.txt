@@ -16,7 +16,7 @@ ADD THE 3 LINES BELOW TO PRUSASLICER'S OR ORCA SLICER'S START GCODE SECTION
 
 M104 S0
 M140 S0
-print_start EXTRUDER=[first_layer_temperature[initial_extruder]] BED=[first_layer_bed_temperature] HEIGHT=[first_layer_height] LAYER=[layer_height] FILAMENT=[filament_type] EXTRUSION=[extrusion_width] 
+print_start EXTRUDER=[first_layer_temperature[initial_extruder]] BED=[first_layer_bed_temperature] HEIGHT=[first_layer_height] LAYER=[layer_height] FILAMENT=[filament_type] EXTRUSION=[external_perimeter_extrusion_width] 
 
 #########################################################################
 ### IF YOU USE CURA ### 
