@@ -4,7 +4,7 @@
 
 # Demon_KLIPPER_Essentials
 Devilishly Good!
-# v2.3 Rewritten, now your printer just got even smarter!
+# v2.4 Rewritten, now your printer just got even smarter!
 
 This macro pack will run on any compatible printer, giving you an amazingly adaptive & effortless feeling to using your machine!
 
@@ -23,7 +23,34 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 # FEATURES: 
 
-### **Demon Start End Print**
+### NEW! Adaptive Pressure Advance Mode! - APA - ORCA SLICER ONLY
+
+- Why have only 1 single setting for Pressure Advance trying to work across the whole print when you can have 6!!
+
+- 6 settings per filament, 30 in total!
+
+- Each setting is automatically selected by filament for different types of extrusions during the print.
+
+- Settings for Perimeter, External Perimeter, Internal Infill, Solid Infill, Top Solid Infill, & filament default.
+
+- Print tuning towers for the speed of each extrusion type & apply them to the Adaptive Pressure Advance (APA) modifiers!
+
+- Disable or enable individual modifiers, you don't have use them all, use any number in any combination!
+
+- Or disable modifiers by filament or the whole module at once!
+
+- All settings in one easy to edit place, no need to edit macro code!
+
+- Verbose mode, read back all APA commands to the console!
+
+
+### NEW! Mesh Auto Builder!
+
+- Auto build all 5 meshes at different temperatures with included heat soak waits & message prompts! Inspired by a community contribution from Karl L! Thank you for sharing!
+
+  
+
+### **Demon Print Start End**
 
 - The printer knows what filament you sliced your print for!
 
@@ -113,7 +140,7 @@ Or you can use...
 ```
 cd /home/pi/printer_data/config
 ```
-NOTE: the above command is for a real Rasberry Pi, if you're using a cloned system that "/pi" folder will change to `mks` or `btt` or similar.
+NOTE: the above command is for a real Raspberry Pi, if you're using a cloned system that "/pi" folder will change to `mks` or `btt` or similar.
 
 ```
 git clone https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials.git
