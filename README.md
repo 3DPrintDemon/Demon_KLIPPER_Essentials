@@ -120,7 +120,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 
 ****************************************************************************************************************************
-# IF YOU RAN V1.0-V2.2 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.3 FILE OR NEW FEATURES WONT WORK!
+# IF YOU RAN V1.0-V2.3 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.4 FILE OR NEW FEATURES WONT WORK!
 ****************************************************************************************************************************
 
 
@@ -191,7 +191,7 @@ https://github.com/3DPrintDemon/Auto_Backup_Your_Klipper_Printer
 
 
 
-# IF YOU RAN V1.0-V2.2 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.3 FILE OR NEW FEATURES WONT WORK!
+# IF YOU RAN V1.0-V2.3 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.4 FILE OR NEW FEATURES WONT WORK!
 
 
 
