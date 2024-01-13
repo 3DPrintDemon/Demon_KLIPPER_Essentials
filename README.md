@@ -101,7 +101,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
   *Menu NOT available on the Sovol own brand Klipper screen unit, but macros still work as normal. 
 
 
-### **Demon_Essentials**
+### **Demon_Setup_Helper**
 
 - Easy and automatic single button press Macros to help you setup your printer.
 
