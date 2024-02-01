@@ -180,7 +180,6 @@ Now set your `Demon_User_Settings` & happy printing!
 
 For the Adaptive Mesh feature to work you must have:
 - The latest version of Klipper!*
-- Enabled your Slicer to `Label Objects`
 - Enabled you Slicer for `Exclude Objects`
 - Added the `Exclude Objects` section to your `moonraker.conf` file
 - Added the `Exclude Objects`section to your `printer.cfg` file
@@ -199,10 +198,17 @@ Add this to your `printer.cfg` file:
 Save & restart!
 
 ## To use adaptive meshing all files MUST have been sliced with `Exclude Objects` active.
-## IF NOT YOU WILL RECEIVE THE FOLLOWING ERROR!!
+## IF NOT YOU WILL RECEIVE THE FOLLOWING ERRORS!!
+
+IF you use ORCA SLICER:
 
 `Error evaluating 'gcode_macro PRINT_START:gcode': gcode.CommandError: This error is caused by the sliced file not having EXCLUDE_OBJECT enabled! Please disable Adaptive_Meshing in the user_settings.cfg or re-slice the file with it enabled and restart the print!`
 
+If you use another slicer:
+
+`Internal error on command:"PRINT_START"`
+
+`Internal error on command:"BED_MESH_CALIBRATE"`
 
 * If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus unfortunately you CAN NOT use this new adaptive mesh feature - DO NOT try to update your system to the latest version of Klipper etc or you WILL BRICK IT!!! You have been warned.
 
