@@ -180,7 +180,7 @@ Now set your `Demon_User_Settings` & happy printing!
 
 For the Adaptive Mesh feature to work you must have:
 - The latest version of Klipper!*
-- Enabled you Slicer for `Exclude Objects`
+- Enabled your Slicer for `Exclude Objects`
 - Added the `Exclude Objects` section to your `moonraker.conf` file
 - Added the `Exclude Objects`section to your `printer.cfg` file
 
@@ -200,7 +200,7 @@ Save & restart!
 ## To use adaptive meshing all files MUST have been sliced with `Exclude Objects` active.
 ## IF NOT YOU WILL RECEIVE THE FOLLOWING ERRORS!!
 
-IF you use ORCA SLICER:
+If you use ORCA SLICER:
 
 `Error evaluating 'gcode_macro PRINT_START:gcode': gcode.CommandError: This error is caused by the sliced file not having EXCLUDE_OBJECT enabled! Please disable Adaptive_Meshing in the user_settings.cfg or re-slice the file with it enabled and restart the print!`
 
