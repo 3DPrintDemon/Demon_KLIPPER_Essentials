@@ -4,7 +4,7 @@
 
 # Demon_KLIPPER_Essentials
 Devilishly Good!
-# v2.4 Rewritten, now your printer just got even smarter!
+# v2.5 Rewritten, now your printer just got even smarter!
 
 This macro pack will run on any compatible printer, giving you an amazingly adaptive & effortless feeling to using your machine!
 
@@ -120,7 +120,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 
 ****************************************************************************************************************************
-# IF YOU RAN V1.0-V2.3 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.4 FILE OR NEW FEATURES WONT WORK!
+# IF YOU RAN V1.0-V2.4 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.5 FILE OR NEW FEATURES WONT WORK!
 ****************************************************************************************************************************
 
 
@@ -176,6 +176,36 @@ If you don’t do this it WONT WORK. They are set to my_led by default.
 
 Now set your `Demon_User_Settings` & happy printing!
 
+## v2.5! Updated to include the new integrated KLIPPER Adaptive Mesh option. There is no longer any need for a separate KAMP install.
+
+For the Adaptive Mesh feature to work you must have:
+- The latest version of Klipper!*
+- Enabled your Slicer to `Label Objects`
+- Enabled you Slicer for `Exclude Objects`
+- Added the `Exclude Objects` section to your `moonraker.conf` file
+- Added the `Exclude Objects`section to your `printer.cfg` file
+
+Add this to your `moonraker.conf` file:
+```
+[file_manager]
+enable_object_processing: true
+```
+
+Add this to your `printer.cfg` file:
+```
+[exclude_object]
+```
+
+Save & restart!
+
+## To use adaptive meshing all files MUST have been sliced with `Exclude Objects` active.
+## IF NOT YOU WILL RECEIVE THE FOLLOWING ERROR!!
+
+`Error evaluating 'gcode_macro PRINT_START:gcode': gcode.CommandError: This error is caused by the sliced file not having EXCLUDE_OBJECT enabled! Please disable Adaptive_Meshing in the user_settings.cfg or re-slice the file with it enabled and restart the print!`
+
+
+* If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus unfortunately you CAN NOT use this new adaptive mesh feature - DO NOT try to update your system to the latest version of Klipper etc or you WILL BRICK IT!!! You have been warned.
+
 # WANT MORE...??
 Whats that I hear you cry, you want more?! Ok I got you covered!
 
@@ -191,7 +221,7 @@ https://github.com/3DPrintDemon/Auto_Backup_Your_Klipper_Printer
 
 
 
-# IF YOU RAN V1.0-V2.3 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.4 FILE OR NEW FEATURES WONT WORK!
+# IF YOU RAN V1.0-V2.4 BE SURE TO UPDATE YOUR SLICER'S START GCODE AS PER V2.5 FILE OR NEW FEATURES WONT WORK!
 
 
 
