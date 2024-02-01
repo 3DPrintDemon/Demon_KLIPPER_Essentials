@@ -211,6 +211,8 @@ If you use another slicer:
 `Internal error on command:"BED_MESH_CALIBRATE"`
 
 * If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus unfortunately you CAN NOT use this new adaptive mesh feature - DO NOT try to update your system to the latest version of Klipper etc or you WILL BRICK IT!!! You have been warned.
+* It’s not all bad news for you…
+While this adaptive mesh is for main branch Klipper only, you can however still use this macro pack just like before on the above Sovol Klipper screen printers, just don’t enable the adaptive mesh feature in the settings.
 
 # WANT MORE...??
 Whats that I hear you cry, you want more?! Ok I got you covered!
