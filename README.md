@@ -130,7 +130,7 @@ Copy the files here into a folder called `Demon_KLIPPER_Essentials` in your conf
 
 Then, paste into your printer.cfg
 ```
-[include ./Demon_KLIPPER_Essentials/*.cfg]
+[include ./Demon_KLIPPER_Essentials-main/*.cfg]
 ```
 
 This will include all files in a folder called Demon_KLIPPER_Essentials in your `~/config` folder.
