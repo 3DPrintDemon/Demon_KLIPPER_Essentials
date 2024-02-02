@@ -17,6 +17,10 @@ Here you'll find all the info you'll need to get Klipper running on your printer
 The .cfg files have been written & tested by myself. I run them on my own machines. The goal of these macros has always been to be as automated and unobtrusive as possible! No clutter, no million macro buttons, no endless choices & commands. This is a hit print & know the printer does the rest system!  
 
 Start_End_Print.cfg has all you need to get your Klipper printer prepared for a print correctly with automatically adaptive modes that will set the printer up for your print by itself! All you need do aside from a few simple setup steps is check & maybe edit the variables section in the file to your liking. 
+
+* If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus & want to use the latest version of Klipper with Adaptive Meshing & more features you need to follow my How2 guide on how to update the Sovol Klipper screens on your printers.
+
+https://github.com/3DPrintDemon/How-to-Update-Sovol-Klipper-Screen-To-Latest-Klipper-SV06-and-SV07 
 ****************************************************************************************************************************
 
 # This macro relies on you setting the correct filament type in your slicer! BE SURE YOU DO THIS!
@@ -210,9 +214,9 @@ If you use another slicer:
 
 `Internal error on command:"BED_MESH_CALIBRATE"`
 
-* If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus unfortunately you CAN NOT use this new adaptive mesh feature - DO NOT try to update your system to the latest version of Klipper etc or you WILL BRICK IT!!! You have been warned.
-* It’s not all bad news for you…
-While this adaptive mesh is for main branch Klipper only, you can however still use this macro pack just like before on the above Sovol Klipper screen printers, just don’t enable the adaptive mesh feature in the settings.
+* If you own a Sovol SV06/Plus with a Sovol Klipper screen or a Sovol SV07/Plus & want to use the latest version of Klipper with Adaptive Meshing & more features you need to follow my How2 guide on how to update the Sovol Klipper screens on your printers.
+
+https://github.com/3DPrintDemon/How-to-Update-Sovol-Klipper-Screen-To-Latest-Klipper-SV06-and-SV07 
 
 # WANT MORE...??
 Whats that I hear you cry, you want more?! Ok I got you covered!
