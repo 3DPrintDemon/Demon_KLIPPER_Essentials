@@ -126,7 +126,7 @@ Start_End_Print.cfg has all you need to get your Klipper printer prepared for a 
 
 # INSTALL
 
-Copy the files here into a folder called `Demon_KLIPPER_Essentials` in your config folder on your printer. 
+Copy the files here into a folder called `Demon_KLIPPER_Essentials-main` in your config folder on your printer. 
 
 Then, paste into your printer.cfg
 ```
@@ -148,7 +148,7 @@ git clone https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials.git
 
 Then, paste into your printer.cfg
 ```
-[include ./Demon_KLIPPER_Essentials/*.cfg]
+[include ./Demon_KLIPPER_Essentials-main/*.cfg]
 ```
 
 This will bring these files into your system, be sure to comment out & NOT delete your current START & END PRINT Macros just yet!
