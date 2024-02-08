@@ -27,6 +27,9 @@ https://github.com/3DPrintDemon/How-to-Update-Sovol-Klipper-Screen-To-Latest-Kli
 
 # FEATURES: 
 
+### NEW! Support for Klipper's `ADAPTIVE_MESH` system in the latest Klipper update
+- NOTE you need the latest version of Klipper to use this!
+
 ### NEW! Adaptive Pressure Advance Mode! - APA - ORCA SLICER ONLY
 
 - Why have only 1 single setting for Pressure Advance trying to work across the whole print when you can have 6!!
